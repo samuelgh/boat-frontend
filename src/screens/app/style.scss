@@ -1,0 +1,106 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100% !important;
+  background: #fff;
+  font-family: 'Helvetica Neue', helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  height: 100%;
+  overflow: scroll;
+  color: #f3f3f3;
+}
+
+h1 {
+  font-size: 90px;
+  font-weight: 800;
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 36px;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+h4 {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+h5 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+pre {
+  margin-top: 10px;
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f3f3f3;
+  border-radius: 3px;
+}
+
+.main {
+  margin: auto;
+  min-height: 100%;
+  //background: url('/bg.jpg') no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/bg.jpg') center center;
+  background-size: cover;
+  //filter: blur(5px);
+}
+
+p {
+  margin-bottom: 7px;
+}
+
+:global {
+
+  #application {
+    min-height: 100%;
+    height: 100%;
+  }
+
+  #application > :first-child {
+    height: 100%;
+  }
+  .doodle {
+  }
+
+
+  .wrapper {
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+  }
+
+  @media (min-width: 800px) {
+    .wrapper {
+      width: 800px;
+      margin: auto;
+    }
+    .doodle {
+      width: 50%;
+      float: left;
+    }
+    .diagram {
+      //float: left;
+      width: 100%;
+    }
+  }
+}
