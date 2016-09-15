@@ -1,8 +1,8 @@
 {
-  "name": "roc-reference",
-  "version": "1.0.0",
-  "description": "rocky",
-  "author": "John Doe",
+  "name": "boat-frontpage",
+  "version": "0.0.1",
+  "description": "Solar panel voltage and temperature logging",
+  "author": "samuelgh",
   "license": "MIT",
   "scripts": {
     "build": "roc build",
