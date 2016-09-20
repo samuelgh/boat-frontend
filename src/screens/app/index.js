@@ -4,7 +4,6 @@ import React, { Component, PropTypes } from 'react';
 import Helmet from 'react-helmet';
 
 import Navbar from '../../components/navbar';
-import Footer from '../../components/footer';
 import styles from './style.scss';
 
 export default class App extends Component {
